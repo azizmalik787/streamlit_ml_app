@@ -28,3 +28,37 @@ streamlit run app.py
 ```
 
 
+
+## Optimizations
+
+I have added two functions named as " text_process(text)" and "lemmatize_text(text):". Later users antoher function for identiiying parts of speech in the given text. This function is named as "get_wordnet_pos(treebank_tag):".
+
+
+
+
+## Function Details
+
+#### Function: text_process(text)
+
+Converts to lower case, removes stop words, numeric, alphanumeric and special characters.
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `text`    | `string` | **Required**. |
+
+#### Function: lemmatize_text(text) 
+Applies lemmatization to pre-processed text.
+
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `text`    | `string` | **Required**. |
+
+
+
+## Contributing
+
+Contributions are always welcome!
+
+Please adhere to this project's `code of conduct`.
+
